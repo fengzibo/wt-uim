@@ -1,0 +1,8 @@
+﻿/*分页*/
+.pagination {font-size: 12px;right:48px;top:0px;width: 100%;height: 24px;bottom: 20px;text-align: right;}
+.pagination a {text-decoration: none;border: solid 1px #C9C9C9;color: #7D7D7D;border-radius:2px;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.pagination a, .pagination span {display: block;float: left;width:24px;height:24px;text-align:center;margin-right: 5px;margin-bottom: 5px;border-radius:2px;line-height:24px}
+.pagination .current {background: #959595;color: #fff;border:1px solid #959595;}
+.pagination a:hover{background: #3499da;color: #fff !important;border:1px solid #3499da;}
+.pagination .prev,.pagination .next{width:60px;}
+.pagination .current.prev, .pagination .current.next{color:#999;border-color:#999;background:#fff;}

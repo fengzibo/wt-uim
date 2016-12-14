@@ -1,0 +1,525 @@
+/*page*/
+
+.pagination {
+  font-size: 12px;
+  right: 48px;
+  top: 0px;
+  width: 100%;
+  height: 24px;
+  bottom: 20px;
+  text-align: right;
+}
+
+.pagination a {
+  text-decoration: none;
+  border: solid 1px #C9C9C9;
+  color: #7D7D7D;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  line-height: 24px;
+}
+
+.pagination .current {
+  background: #959595;
+  color: #fff;
+  border: 1px solid #959595;
+}
+
+.pagination a:hover {
+  background: #3499da;
+  color: #fff !important;
+  border: 1px solid #3499da;
+}
+
+.pagination .prev,
+.pagination .next {
+  width: 60px;
+}
+
+.pagination .current.prev,
+.pagination .current.next {
+  color: #999;
+  border-color: #999;
+  background: #fff;
+}
+
+/*修改bootstrap样式*/
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.badge {
+  margin-left: 6px;
+}
+
+.control-label > span {
+  color: red;
+  margin-right: 4px;
+}
+
+.container {
+  width: 1200px !important;
+  max-width: none !important;
+}
+
+/*修改bootstrap样式*/
+
+.layui-elem-field legend {
+  width: auto;
+}
+
+.layui-form-label {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+
+/*进度条*/
+
+.progressBar {
+  width: 400px;
+  height: 8px;
+  border: 1px solid #98AFB7;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#wt_bar {
+  width: 0px;
+  height: 7px;
+  border-radius: 5px;
+  background: #5EC4EA;
+}
+
+/*轮播*/
+
+.swiper-slide img {
+  width: 100%;
+}
+
+/*选项卡*/
+
+.wtTab-box {
+  width: 100%;
+}
+
+.wtTab-box .tab-title li {
+  float: left;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background-color: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-left: none;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.wtTab-box .tab-title li:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.wtTab-box .tab-title li.current {
+  bottom: -1px;
+}
+
+.wtTab-box .tab-main {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: relative;
+  height: 300px;
+}
+
+.wtTab-box .tab-main li {
+  display: none;
+  height: 300px;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgLoading img {
+  background: url(../img/loading-0.gif) no-repeat center;
+}
+
+.c-com {
+  width: 843px;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.c-select {
+  background: #dfdfdf;
+}
+
+.mgb-50 {
+  margin-bottom: 50px;
+}
+
+.c-screen {
+  width: 843px;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+}
+
+.c-screen_list {
+  border-bottom: 1px dashed #bfbfbf;
+  padding: 10px;
+}
+
+.c-screen_last {
+  padding: 10px;
+}
+
+.c-screen_only {
+  width: 843px;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+}
+
+.c-condition {
+  padding: 10px;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+.content-in {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+
+.video-box {
+  width: 320px;
+  margin-right: 20px;
+}
+
+.video-text {
+  padding-top: 10px;
+}
+
+.video-text h3 {
+  margin-bottom: 30px;
+}
+
+.video-text p {
+  margin-bottom: 25px;
+}
+
+.video-text div div {
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 45px;
+  margin-top: 25px;
+}
+
+.video-text div div a {
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000;
+}
+
+.video-text div div a span {
+  font-size: 18px;
+}
+
+.video-text div .fyu-love {
+  margin-left: 20px;
+  position: relative;
+  top: -5px;
+}
+
+.video-text div .fyu-love em {
+  padding-left: 10px;
+}
+
+.fyu-coverage {
+  padding-top: 50px;
+}
+
+.coverage-lf {
+  width: 900px;
+}
+
+.coverage-lf .tab-ul {
+  border: 1px solid #CCCCCC;
+  padding-left: 20px;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+.coverage-lf .tab-ul li {
+  float: left;
+  width: 120px;
+  text-align: center;
+}
+
+.coverage-lf .tab-ul li:hover {
+  cursor: pointer;
+}
+
+.coverage-text {
+  margin-top: 40px;
+}
+
+.coverage-text ul li {
+  margin-bottom: 20px;
+}
+
+.coverage-text ul li p {
+  line-height: 24px;
+}
+
+.coverage-title {
+  display: block;
+}
+
+.tab-color {
+  border-bottom: 2px solid #FFC90E;
+}
+
+.coverage-rt {
+  width: 270px;
+}
+
+.coverage-rt ul li {
+  border: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+}
+
+.coverage-rt ul li .coverage-teacher {
+  height: 175px;
+  padding: 15px 15px;
+}
+
+.coverage-rt ul li p {
+  margin-bottom: 20px;
+}
+
+.coverage-rt ul li .user-pic {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #CCCCCC;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.coverage-rt ul li .teacher-name span {
+  display: block;
+  line-height: 24px;
+}
+
+.coverage-rt ul li .teacher-name span a {
+  color: #FFC90E;
+}
+
+.coverage-rt ul li .teacher-name .b-name {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.recommend {
+  padding: 20px 15px;
+}
+
+.recommend .u-siblistCon {
+  width: 230px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.recommend .text-1 {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.recommend .text-1 span {
+  font-weight: bold;
+}
+
+.comment {
+  margin-top: 40px;
+}
+
+.comment ul {
+  border: none;
+}
+
+.comment ul li {
+  margin-bottom: 20px;
+}
+
+.comment ul .clearfix {
+  border: none;
+  padding-left: 0;
+  line-height: 0;
+}
+
+.comment ul .clearfix .comment-time {
+  display: block;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.comment-text {
+  margin-left: 20px;
+}
+
+.comment-text span {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.comment-text p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.comment-text .interaction {
+  margin-top: 5px;
+}
+
+.comment-text .interaction a,
+.comment-text .interaction em {
+  color: #999999;
+}
+
+.comment-text .interaction a {
+  padding-right: 10px;
+}
+
+.comment-text .interaction em:hover {
+  color: #FFC90E;
+}
+
+.comment-text .interaction em:hover,
+.comment-text .interaction a:hover {
+  color: #FFC90E;
+}
+
+.comment-text .interaction em {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.comment-user {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
+}
+
+.tab-2 ul li {
+  margin-bottom: 40px;
+}
+
+.first-review {
+  font-size: 14px;
+  width: 840px;
+  color: #999999;
+  border: 1px solid #CCCCCC;
+  margin-top: 15px;
+  margin-left: 60px;
+  padding: 20px 20px;
+}
+
+.first-review {
+  display: none;
+}
+
+.first-review textarea {
+  width: 750px;
+  border: 1px solid #CCCCCC;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  line-height: 24px;
+}
+
+.first-review .btn-1 {
+  display: block;
+  width: 130px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+
+.first-review .times-p {
+  margin-top: 10px;
+}
+
+.first-review .times-p span {
+  padding-right: 5px;
+}
+
+.user-evaluate span {
+  font-size: 14px;
+}
+
+.user-evaluate .clearfix {
+  border: none;
+}
+
+.user-evaluate .first-review {
+  display: block;
+  border: none;
+  margin-top: -20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.user-evaluate .first-review textarea {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.text-center h3 {
+  margin-bottom: 10px;
+}
+
+.onsultaion-text li {
+  margin-bottom: 30px;
+}
+
+.onsultaion-text li p {
+  line-height: 24px;
+}
